@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<script src="app.js"></script>
+<script src="./bower_components/jquery/dist/jquery.js"></script>
+<link rel="stylesheet" type="text/css" href="./styles.css">
+	<title>
+		Twitter
+	</title>
+</head>
+
+
+<script>
+  $(function(){
+    app.init();
+  });
+</script>
+
+<body>
+  <h1>Twitter</h1>
+
+
+  <!--Submit Form-->
+  <form action='#' id='send' method='POST'>
+    <span>Load User Feed</span>
+    <input type="text" id="message" placeholder="Enter username">
+    <input type="submit" id='submitButton' value="Submit">
+  </form>
+
+  <br>
+
+  <h3>Tweets:</h3>
+
+  <div id="tweetBox">
+  <div id="tweets">
+  <!--Tweet Log-->
+  </div>
+</span>
+
+	</body>
+
+</html>
